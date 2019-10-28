@@ -1,0 +1,10 @@
+package "template"
+version "0.0.1"
+purpose "Something"
+description "Something more detailed."
+
+option "num" n "Some number"
+        int no default="10"
+
+option "filename" f "Some file"
+        string yes

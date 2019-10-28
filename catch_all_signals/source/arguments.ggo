@@ -1,0 +1,8 @@
+package "catch_all_signals"
+version "0.0.1"
+purpose "Catches signals"
+
+option "min" m "minimum value"
+        int no default="1"
+option "max" M "maximum value"
+        int no default="64"
